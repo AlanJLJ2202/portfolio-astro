@@ -10,12 +10,12 @@ import Hero from '../components/Hero.astro';
 		<main class="wrapper about">
 			<Hero
 				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				tagline=":)"
 			>
 				<img
-					width="800"
-					height="200"
-					src="/assets/PORTFOLIO2.jpeg"
+					width="400"
+					height="800"
+					src="/assets/PORTFOLIO2.webp"
 					alt="Jeanine White at work with a colleague"
 				/>
 			</Hero>
@@ -24,12 +24,9 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						My passion for technology shines through in every project I take on. I focus on usability, innovation, and code quality, aiming to deliver digital solutions that not only meet but exceed client expectations.
 					</p>
-					<p>
+					<!-- <p>
 						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
 						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
 						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
@@ -40,19 +37,70 @@ import Hero from '../components/Hero.astro';
 						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
 						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
 						pretium fusce.
-					</p>
+					</p> -->
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Work Experience</h2>
+				<div class="content">
+					<p>AI Specialist and Software Developer</p>
+					<p><strong>Kov Parts (2024 - Current)</strong></p>
+					<br>
+					<p>Full-stack developer</p>
+					<p><strong>Corvuz (2022 - 2024)</strong></p>
+					<br>
+					<p>Freelance developer</p>
+					<p><strong>Rehabilit (2021 - 2023)</strong></p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>Computer Engineer</p>
+					<p><strong>Tecnologico Nacional de México Campus Purísima del Rincón (2019 - 2024)</strong></p>
+					<br>
+					<p>TOELF ITP English Certified</p>
+					<p><strong>Educational Testing Service (2024)</strong></p>
+					<br>
+					<p>Digital Economy - 4.0 Industry</p>
+					<p><strong>Social Service (2022)</strong></p>
+					<br>
+					<p>Technical Degree in Computer Equipment Support and Maintenance.</p>
+					<p><strong>CECYTE Purísima I (2019)</strong></p>
 				</div>
 			</section>
+
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Courses</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<p>Computer Engineer</p>
+					<p><strong>Tecnologico Nacional de México Campus Purísima del Rincón (2019 - 2024)</strong></p>
+					<br>
+					<p>TOELF ITP English Certified</p>
+					<p><strong>Educational Testing Service (2024)</strong></p>
+					<br>
+					<p>Digital Economy - 4.0 Industry</p>
+					<p><strong>Social Service (2022)</strong></p>
+					<br>
+					<p>Technical Degree in Computer Equipment Support and Maintenance.</p>
+					<p><strong>CECYTE Purísima I (2019)</strong></p>
+				</div>
+			</section>
+
+			<section>
+				<h2 class="section-title">Courses</h2>
+				<div class="content">
+					<p>PHP/Laravel and Web Development</p>
+					<p><strong>(2024)</strong></p>
+					<br>
+					<p>Requirements lifting course</p>
+					<p><strong>(2023)</strong></p>
+					<br>
+					<p>Virtual Private Servers administration</p>
+					<p><strong>(2023)</strong></p>
+					<br>
+					<p>Mobile applications with flutter</p>
+					<p><strong>(2022)</strong></p>
 				</div>
 			</section>
 		</main>
@@ -72,6 +120,8 @@ import Hero from '../components/Hero.astro';
 		margin-top: 1.5rem;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
+		display: flex;
+		margin: 0 auto;
 	}
 
 	section {
