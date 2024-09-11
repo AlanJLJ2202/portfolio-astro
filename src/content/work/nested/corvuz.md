@@ -1,7 +1,7 @@
 ---
 title: CORVUZ
 publishDate: 2025-03-01 00:00:00
-img: /assets/corvuz.jpeg
+img: /assets/enterprises/corvuz-Photoroom.webp
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   We developed a virtual showcase for the softest bedding imaginable.
