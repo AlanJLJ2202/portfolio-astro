@@ -62,4 +62,20 @@ const { variant } = Astro.props;
 			flex-basis: 20rem;
 		}
 	}
+
+	/* Estilo uniforme para las imágenes */
+	.mention-card img {
+		width: 100px;
+		height: 100%;
+		object-fit: fill; /* Las imágenes se ajustan sin distorsión */
+		border-radius: 0.5rem; /* Bordes redondeados para estética */
+	}
+
+	/* Ajuste para que las imágenes sean responsivas */
+	.mention-card {
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 </style>

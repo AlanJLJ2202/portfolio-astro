@@ -81,19 +81,32 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Skills</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						With a solid foundation in web and mobile development, I have honed my expertise across a diverse range of languages and technologies.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['assets/skills/flutter-two.webp', 
+							'assets/skills/python.webp', 
+							'assets/skills/php.webp',
+							'assets/skills/javascript.webp', 
+							'assets/skills/css.webp', 
+							'assets/skills/html.webp',
+							'assets/skills/vue.webp',
+							'assets/skills/sql.webp',
+							'assets/skills/mongo.webp',
+							'assets/skills/aws.webp',
+						].map((brand) => (
 								<li class="mention-card">
-									<p>{brand}</p>
+									<img src={brand} alt={brand} style="width: 100%;
+										height: 100%;
+										object-fit: cover; /* Las imágenes se ajustan sin distorsión */
+										border-radius: 0.5rem; /* Bordes redondeados para estética */" 
+									/>
 								</li>
 							))
 						}

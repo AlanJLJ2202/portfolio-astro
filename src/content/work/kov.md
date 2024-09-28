@@ -4,7 +4,8 @@ publishDate: 2024-12-01 00:00:00
 img: /assets/enterprises/kov-Photoroom.webp
 img_alt: KOV PARTS PORTFOLIO
 description: |
-  Desarrollo de herramientas de software a la medida, fusionando y adaptando IA emergente con tecnologías de desarrollo de vanguardia.
+    KOV PARTS es mi trabajo actual, donde soy responsable de todas las soluciones tecnológicas y de informática. He implementado soluciones innovadoras impulsadas por inteligencia artificial, lo que nos ha permitido mantenernos a la vanguardia en la industria. Mi enfoque ha sido desarrollar herramientas de software personalizadas que integran IA emergente con tecnologías de desarrollo de vanguardia, optimizando los procesos y mejorando la eficiencia de la empresa.
+
 tags:
   - AI
   - Development
@@ -12,7 +13,7 @@ tags:
   - Problem Solving
 ---
 
-(2024 - Actualidad)
+<!-- (2024 - Actualidad)
 
 Llevar y aterrizar ideas innovadoras es un trabajo que requiere de un equipo altamente cualificado. En KOV, trabajamos en conjunto para plasmar y materializar ideas innovadoras en el mercado. Nuestro equipo de investigación y desarrollo de productos de alta calidad se encarga de llevar a cabo proyectos de alta complejidad, con el objetivo de ofrecer soluciones innovadoras y de calidad a la empresa #1 en el mercado de accesorios para motociclistas.
 
@@ -22,4 +23,4 @@ Entendiendo el funcionamiento tanto interno como externo de la empresa, he podid
 
 <br>
 
-- **Data Analysis:**
+- **Data Analysis:** -->

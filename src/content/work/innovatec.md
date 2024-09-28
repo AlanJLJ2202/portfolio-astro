@@ -4,14 +4,15 @@ publishDate: 2020-03-02 00:00:00
 img: /assets/enterprises/innova-Photoroom.webp
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+    INNOVATEC fue uno de los primeros proyectos y concursos en los que participé, donde perfeccioné mis habilidades en levantamiento de requerimientos y trabajo en equipo. En este proyecto, desarrollamos una aplicación móvil, lo que me permitió mejorar en la coordinación con el equipo y la gestión de las necesidades del cliente, sentando las bases para futuros desarrollos exitosos.
+
 tags:
   - Design
   - Dev
   - User Testing
 ---
 
-## Level-two heading
+<!-- ## Level-two heading
 
 > Tell me and I forget. Teach me and I remember. Involve me and I learn.
 
@@ -32,4 +33,4 @@ Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum qu
 #### Level-four heading
 
 - We noted this
-- And also this other point
+- And also this other point -->
